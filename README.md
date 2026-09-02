@@ -7,14 +7,14 @@ A lightweight, cross-platform media processing engine and REST API built with Py
 The project is structured with a clean separation of concerns, decoupling the core processing module from the presentation layer:
 
 MediaDownloader/
-ÃÄÄ core/
-³   ÀÄÄ downloader.py   # Core extraction engine wrapping yt-dlp & FFmpeg
-ÃÄÄ api/
-³   ÀÄÄ main.py         # FastAPI application & lightweight Web Interface
-ÃÄÄ downloads/          # Local storage for converted media
-ÃÄÄ run.py              # Application entry point
-ÃÄÄ requirements.txt    # Project dependencies
-ÀÄÄ .gitignore          # Git exclusion rules
+ÃƒÃ„Ã„ core/
+Â³   Ã€Ã„Ã„ downloader.py   # Core extraction engine wrapping yt-dlp & FFmpeg
+ÃƒÃ„Ã„ api/
+Â³   Ã€Ã„Ã„ main.py         # FastAPI application & lightweight Web Interface
+ÃƒÃ„Ã„ downloads/          # Local storage for converted media
+ÃƒÃ„Ã„ run.py              # Application entry point
+ÃƒÃ„Ã„ requirements.txt    # Project dependencies
+Ã€Ã„Ã„ .gitignore          # Git exclusion rules
 
 ## Features
 
@@ -71,10 +71,3 @@ python3 -m venv venv
 
 Access the application by opening http://127.0.0.1:8000 in your web browser.
 
-## Tech Stack
-
-- Backend Framework: FastAPI
-- ASGI Server: Uvicorn
-- Engine Core: yt-dlp
-- Media Processing: FFmpeg
-- Data Validation: Pydantic
