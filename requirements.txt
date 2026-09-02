@@ -1,6 +1,4 @@
-(
-echo fastapi
-echo uvicorn
-echo yt-dlp
-echo pydantic
-) > requirements.txt
+fastapi
+uvicorn
+yt-dlp
+pydantic
