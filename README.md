@@ -2,20 +2,6 @@
 
 A lightweight, cross-platform media processing engine and REST API built with Python and FastAPI. The application enables seamless video and audio extraction from various streaming platforms with real-time status feedback and an optimized dark user interface.
 
-## System Architecture
-
-The project is structured with a clean separation of concerns, decoupling the core processing module from the presentation layer:
-
-MediaDownloader/
-ÃÄÄ core/
-³   ÀÄÄ downloader.py   # Core extraction engine wrapping yt-dlp & FFmpeg
-ÃÄÄ api/
-³   ÀÄÄ main.py         # FastAPI application & lightweight Web Interface
-ÃÄÄ downloads/          # Local storage for converted media
-ÃÄÄ run.py              # Application entry point
-ÃÄÄ requirements.txt    # Project dependencies
-ÀÄÄ .gitignore          # Git exclusion rules
-
 ## Features
 
 - Cross-platform support (Windows, macOS, Linux).
