@@ -1,17 +1,6 @@
-fastapi>=0.110.0
-uvicorn[standard]>=0.28.0
-yt-dlp>=2024.3.10
-pydantic>=2.6.0
-python-multipart>=0.0.9
-
-
-w:
-py -m venv venv
-.\venv\Scripts\python.exe -m pip install -r requirements.txt
-.\venv\Scripts\python.exe run.py
-
-
-m/l:
-python3 -m venv venv
-./venv/bin/pip install -r requirements.txt
-./venv/bin/python run.py
+(
+echo fastapi
+echo uvicorn
+echo yt-dlp
+echo pydantic
+) > requirements.txt
